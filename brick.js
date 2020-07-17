@@ -1,4 +1,3 @@
-/* Question no 3 brickCalculator solution*/
 function brickCalculator(height){
     if(height<0){
     var neededBrick = "no bricks needed as height can't be negative"
@@ -15,7 +14,6 @@ function brickCalculator(height){
 
 console.log(brickCalculator(22));
 
-/* Question no 2 woodCalculator solution*/
 function woodCalculator(chair, table, bed){
     var woodNeeded;
     var chairWood = chair*1;
@@ -26,7 +24,7 @@ function woodCalculator(chair, table, bed){
 }
 console.log(woodCalculator(1,1,1));
 
-/* Question no 1 feetToMile solution*/
+
 function feetToMile(feet){
 var mile = feet/5280;
 
@@ -45,8 +43,8 @@ if(feet< 0){
 console.log(feetToMile(100));
 
 
+var fidah = ["hifa","fids","shawon","mum","asa","mun","hh","aa"];
 
-/* Question no 4 tinyFriend solution*/
 function tinyFriend(array) {
   var tiny = array[0];
   
@@ -63,10 +61,8 @@ function tinyFriend(array) {
   return tiny;
 }
 
-var smallestString = tinyFriend(["akash","nilu","korno","eva","mun"]);
 
 
 
 
-
-console.log(smallestString);
+console.log(tinyFriend(fidah));
